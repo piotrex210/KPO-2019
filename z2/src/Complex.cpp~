@@ -1,0 +1,43 @@
+#include "Complex.hh"
+
+/*!
+ * Realizuje dodanie dwoch liczb zespolonych.
+ * Argumenty:
+ *    arg1 - pierwszy skladnik dodawania,
+ *    arg2 - drugi skladnik dodawania.
+ * Zwraca:
+ *    Sume dwoch skladnikow przekazanych jako parametry.
+ */
+Complex operator+(Complex arg1, Complex arg2)
+{
+    Complex result;
+
+    result.re = arg1.re + arg2.re;
+    result.im = arg1.im + arg2.im;
+    return result;
+}
+Complex operator-(Complex arg1, Complex arg2)
+{
+    Complex result;
+
+    result.re = arg1.re - arg2.re;
+    result.im = arg1.im - arg2.im;
+    return result;
+}
+Complex operator*(Complex arg1, Complex arg2)
+{
+    Complex result;
+
+    result.re = arg1.re*arg2.re-arg1.im*arg2.im;
+    result.im = arg1.im*arg2.re+arg1.re*arg2.im;
+    return result;
+}
+Complex operator/(Complex arg1, Complex arg2)
+{
+    Complex result;
+
+    result.re = (arg1.re*arg2.re-arg1.im*arg2.im*(-1))/(arg2.re^2+arg2.im^2);
+    result.im = (arg1.im*arg2.re+arg1.re*arg2.im*(-1))/(arg2.re^2+arg2.im^2);
+    return result;
+}
+

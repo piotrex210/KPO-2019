@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(z2)
+include_directories(inc)
+file(GLOB SOURCE "src/*.cpp" "inc/*.hh")
+add_executable(${z2} ${SOURCE})

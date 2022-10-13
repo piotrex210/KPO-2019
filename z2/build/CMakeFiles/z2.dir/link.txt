@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/z2.dir/src/Complex.cpp.o CMakeFiles/z2.dir/src/Database.cpp.o CMakeFiles/z2.dir/src/Expression.cpp.o CMakeFiles/z2.dir/src/main.cpp.o  -o z2 

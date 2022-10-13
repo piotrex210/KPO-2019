@@ -1,0 +1,13 @@
+Pierwszy raz:
+1. git clone <adres HTTPS>
+2. echo "obj/" > .gitignore
+
+
+
+
+1. Wprowadź zmiany w kodzie
+2.git add .
+3.git commit -m "nazwa commita"
+4.git push
+
+.
