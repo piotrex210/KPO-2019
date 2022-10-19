@@ -1,5 +1,5 @@
 # z4
-Kontynuacja poprzedniego programu. Tworzenie szablonów na podstawie wcześniejszych klas. Obsługa liczb zespolonych.
+Kontynuacja poprzedniego programu. Tworzenie szablonów na podstawie wcześniejszych klas. Obsługa liczb zespolonych
 
 
 
